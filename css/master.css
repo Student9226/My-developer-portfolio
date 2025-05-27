@@ -1,0 +1,49 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid white
+}
+
+section {
+  margin: 40px auto;
+  max-width: 900px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translate(-5px, -5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+a {
+  text-decoration: none;
+  color: #4caf50;
+}
+
+a:hover {
+  color: #45a049;
+}
